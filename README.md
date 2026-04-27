@@ -38,6 +38,6 @@
 git clone https://github.com/your-username/assistgen.git
 cd assistgen
 
-### 3. 安装依赖
+**### 3. 安装依赖**
 
-### 4. 配置环境变量
+**### 4. 配置环境变量**
