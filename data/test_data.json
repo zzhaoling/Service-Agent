@@ -1,0 +1,314 @@
+[
+  {
+    "query": "你好，在吗？",
+    "expected": "general-query"
+  },
+  {
+    "query": "你们家空调保修期是多久？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "我刚收到冰箱，但是门关不严，怎么办？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "我想买一台吸尘器，有什么型号推荐？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "我的订单号是CM20241001，帮我查一下发货没有",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "请问这个洗衣机支持变频吗？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "我买的电饭煲煮饭有糊味，是不是质量问题？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "退货的运费谁承担？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "你们客服是人工还是机器人？",
+    "expected": "general-query"
+  },
+  {
+    "query": "电视屏幕有一条竖线，需要提供什么信息才能帮我处理？",
+    "expected": "additional-query"
+  },
+  {
+    "query": "我想申请换货，请问流程是什么？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "我的电热水器不加热了，能帮我看看吗？",
+    "expected": "additional-query"
+  },
+  {
+    "query": "这款空气净化器的CADR值是多少？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "你们店铺的优惠券怎么领？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "我买的微波炉门打不开，是不是坏了？",
+    "expected": "additional-query"
+  },
+  {
+    "query": "请问安装师傅什么时候上门？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "能不能告诉我具体哪款扫地机器人可以拖地？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "我的烤箱工作时外壳很烫，正常吗？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "刚刚收到货，但是发现包装有破损，怎么办？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "我想问一下你们有没有实体店？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "我买的破壁机噪音很大，比说明书上写的大很多",
+    "expected": "additional-query"
+  },
+  {
+    "query": "你们支持7天无理由退货吗？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "我的订单已经付款了，但是一直显示未发货",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "请帮我查一下这款冰箱的能效等级",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "你们几点下班？我想打电话咨询",
+    "expected": "general-query"
+  },
+  {
+    "query": "我的洗碗机洗不干净碗碟，是什么原因？",
+    "expected": "additional-query"
+  },
+  {
+    "query": "这个电风扇的风力有几档？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "我收到的商品颜色和图片不一样，可以换吗？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "能告诉我你们的客服工作时间吗？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "我的净水器出水很小，怎么办？",
+    "expected": "additional-query"
+  },
+  {
+    "query": "请问发票什么时候能开？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "我买了两台空调，只收到一台",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "这款加湿器的水箱容量是多少升？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "我想咨询一下延保服务怎么买",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "我的咖啡机不出水了，需要提供什么信息？",
+    "expected": "additional-query"
+  },
+  {
+    "query": "你们和官方旗舰店是同一家吗？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "我的订单号是888888，帮我催一下物流",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "这个取暖器费电吗？一小时大概多少度电？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "我买的抽油烟机安装后不工作，怎么办？",
+    "expected": "additional-query"
+  },
+  {
+    "query": "请问赠品什么时候发？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "我的电磁炉触控不灵敏，有什么解决办法？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "能告诉我具体怎么申请售后吗？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "我无法描述故障现象，能电话沟通吗？",
+    "expected": "additional-query"
+  },
+  {
+    "query": "这个烘干机的容量是多少公斤？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "我的订单被系统取消了，钱什么时候退？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "你们这个品牌和某某品牌比哪个好？",
+    "expected": "general-query"
+  },
+  {
+    "query": "我的电压力锅安全阀漏气，需要提供什么？",
+    "expected": "additional-query"
+  },
+  {
+    "query": "请问可以开增值税专用发票吗？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "这款电视支持壁挂安装吗？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "我买的热水器漏水，已经拍好视频了",
+    "expected": "additional-query"
+  },
+  {
+    "query": "你们店铺有没有满减活动？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "我的电饼铛不加热了，指示灯也不亮",
+    "expected": "additional-query"
+  },
+  {
+    "query": "请问这款空气炸锅的容量适合几个人？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "我想改收货地址，订单还没发货",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "我的洗衣机脱水时晃动很厉害，正常吗？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "能帮我查一下这款产品的生产日期吗？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "我的订单显示签收了，但我没收到货",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "这个养生壶的材质是玻璃还是塑料？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "请问你们支持以旧换新吗？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "我的榨汁机刀片不转了，需要怎么处理？",
+    "expected": "additional-query"
+  },
+  {
+    "query": "我买错了型号，可以换货吗？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "请告诉我你们客服的联系邮箱",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "我的电热毯有一边不热，怎么办？",
+    "expected": "additional-query"
+  },
+  {
+    "query": "这款智能马桶盖的防水等级是多少？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "我的订单使用了优惠券，退款能退回吗？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "你们发货用什么快递？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "我的除湿机水箱满了不提示，是故障吗？",
+    "expected": "additional-query"
+  },
+  {
+    "query": "请问安装需要另外收费吗？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "我的电饭煲显示E3错误代码，什么意思？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "我想投诉物流公司，可以吗？",
+    "expected": "general-query"
+  },
+  {
+    "query": "我的扫地机总是卡在沙发底下，怎么办？",
+    "expected": "additional-query"
+  },
+  {
+    "query": "你们家产品的保修需要注册吗？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "我的烤箱门玻璃炸裂了，属于保修范围吗？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "能帮我查一下这款冰箱的噪音值吗？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "我的订单已经超过预计送达时间了",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "这个电热水龙头安全吗？有没有防漏电保护？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "我收到货发现少了配件，怎么办？",
+    "expected": "graphrag-query"
+  },
+  {
+    "query": "请问你们的客服系统是智能助手吗？",
+    "expected": "general-query"
+  }
+]
