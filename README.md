@@ -37,7 +37,30 @@
 ```bash
 git clone https://github.com/your-username/assistgen.git
 cd assistgen
+```
 
-**### 3. 安装依赖**
+### 3. 安装依赖
 
-**### 4. 配置环境变量**
+### 4. 配置环境变量
+```bash
+# 保存为env文件
+# Neo4j
+NEO4J_URI=bolt://localhost:7687
+NEO4J_USERNAME=neo4j
+NEO4J_PASSWORD=your_password
+NEO4J_DATABASE=neo4j
+
+# LLM (DeepSeek)
+LLM_API_KEY=your_deepseek_key
+LLM_BASE_URL=https://api.deepseek.com/v1
+LLM_MODEL=deepseek-chat
+
+# Qwen (裁判模型)
+QWEN_MODEL_ID=Qwen/Qwen2.5-7B-Instruct
+QWEN_BASE_URL=https://api.siliconflow.cn/v1
+QWEN_API_KEY=your_siliconflow_key
+
+# GraphRAG 数据目录
+GRAPHRAG_PROJECT_DIR=./graphrag_data
+GRAPHRAG_DATA_DIR=data
+```
